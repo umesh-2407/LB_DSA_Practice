@@ -7,13 +7,11 @@ int main(){
     int tc = 3;
 
     int row = 1;
-    int n=1;
     while(row <= tr){
         int col = 1;
         while(col <= tc){
-            cout << n;
+            cout << col ;
             col++;
-            n++;
         }
         cout << endl;
         row++;
