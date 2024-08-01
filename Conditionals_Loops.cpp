@@ -3,21 +3,26 @@ using namespace std;
 
 int main(){
     
-   int a,b;
+   char a;
    cout << "Enter No. : ";
    cin >> a ;
 
-   cout << "Enter No. : ";
-   cin >> b ;
  
 
-   if(a>b){
-    cout << a <<endl;
+   if(a>= 'a' && a<= 'z'){
+    cout << "a-z" <<endl;
+   }
+
+   else if(a>= 'A' && a<= 'Z'){
+    cout << "A-Z" <<endl;
+   }
+
+    else if(a>= '0' && a<= '9'){
+    cout << "0-9" <<endl;
    }
 
    else{
-    cout << b <<endl;
+    cout<<"other"<<endl;
    }
-
     return 0;
 }
