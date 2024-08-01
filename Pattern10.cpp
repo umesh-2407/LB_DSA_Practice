@@ -8,8 +8,10 @@ int main(){
     int row = 1;
     while(row <= n){
         int col = 1;
+        int x = row;
         while(col <= row){
-            cout << "*" ;
+            cout << x <<" " ;
+            x--;
             col++;
         }
         cout << endl;

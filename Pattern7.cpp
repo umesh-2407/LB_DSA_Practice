@@ -9,7 +9,7 @@ int main(){
     while(row <= n){
         int col = 1;
         while(col <= row){
-            cout << "*" ;
+            cout << row ;
             col++;
         }
         cout << endl;
